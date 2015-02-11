@@ -14,7 +14,8 @@ By default, this image with run the sonar-runner executable inside the /data dir
 
 ### Running against your project
 
-You can make your project directory available to the container by sharing a volume when starting the container, using -v.
+You can make your project directory available to the container by sharing a volume when starting the container:
+
 ```
 docker run --rm -v /path/to/your/project:/data pierrevincent/sonar-runner
 ```
